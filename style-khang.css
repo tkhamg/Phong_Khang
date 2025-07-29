@@ -1,0 +1,41 @@
+header {
+  height: 100vh; 
+  background-image: url('home.jpg'); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.pk-hero {
+  background-image: url('home.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  align-items: center;        
+  justify-content: center;    
+  position: relative;
+  text-align: center;
+}
+.pk-overlay {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px 20px;
+  z-index: 1;
+}
+.pk-navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    width: 100%;
+}
+.pk-logo{
+    font-family:'Great Vibes',cursive;
+    font-size: 28px;
+    color: white;
+    width: 100%;
+}
