@@ -1,125 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Phong Khang</title>
-    <style>
-      .img-containers {
-        margin: auto;
-        display: flex;
-        max-width: auto;
-        padding: 50px;
 
-        gap: 20px;
-      }
-      .img1_and_img2 {
-        display: flex;
-        flex-direction: column;
-        gap: 27px;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Phong Khang</title>
+  <style>
+    body {
+      font-family: "Dosis", sans-serif;
+    }
 
-      .text_with_img1 {
-        position: relative;
-        display: inline-block;
-      }
-      #ours1 {
-        display: block;
-        width: 100%;
-        height: auto;
-      }
-      #para1 {
-        position: absolute;
-        bottom: 30px;
-        left: 50%;
-        font-size: 22px;
-        transform: translateX(-50%);
-        text-transform: capitalize;
-        color: white;
-        margin-bottom: 0;
-      }
-      .text_with_img2 {
-        position: relative;
-        display: inline-block;
-      }
-      #ours2 {
-        display: block;
-        width: 100%;
-        height: auto;
-      }
-      #para2 {
-        position: absolute;
-        bottom: 30px;
-        left: 50%;
-        font-size: 22px;
-        transform: translateX(-50%);
-        text-transform: capitalize;
-        color: white;
-        margin-bottom: 0;
-      }
-      .text_with_img3 {
-        position: relative;
-        display: inline-block;
-      }
-      #ours3 {
-        display: block;
-        width: 100%;
-        height: auto;
-      }
-      #para3 {
-        position: absolute;
-        bottom: 30px;
-        left: 50%;
-        font-size: 22px;
-        transform: translateX(-50%);
-        text-transform: capitalize;
-        color: white;
-        margin-bottom: 0;
-      }
-    </style>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style-khang.css">
-  </head>
-  <body>
-    <header class="pk-navbar">
-      <div class="pk-logo">Phong Khang</div>
-      <nav class="pk-nav-links">
-        <a href="#">Services Rate</a>
-        <a href="#">Blog</a>
-        <a href="#">Contact</a>
-      </nav>
-    </header>
-    <section class="pk-hero">
-        <img src="home.jpg" class="pk-slide">
-      </div>
-      <div class="pk-overlay">
-        <h1 class="pk-title slide-in">Drive of your life</h1>
-        <p class="pk-subtitle">Offering the Best Limo Service in Hội An. Experience It Now!</p>
-        <div class="pk-contact-button">
-          <a href="https://facebook.com" class="pk-btn pk-fb" target="_blank">Facebook</a>
-          <a href="https://zalo.me/0935911027" class="pk-btn pk-zalo" target="_blank">Zalo</a>
-          <a href="tel:0935911027" class="pk-btn pk-call">Call:0935911027</a>
-          <a href="https://www.google.com/maps/search/?api=1&query=Số+8+Bầu+Ốc+Thượng" class="pk-btn pk-map" target="_blank">Location</a>
-        </div>
-      </div>
-    </section>
-    <div></div>
-    <div class="img-containers">
-      <div class="img1_and_img2">
-        <div class="text_with_img1">
-          <img id="ours1" src="ours1.jpg" alt="our picture 1" />
-          <p id="para1">Limousine Service</p>
-        </div>
-        <div class="text_with_img2">
-          <img id="ours2" src="ours2.jpg" alt="our picture 2" />
-          <p id="para2">Chauffeur Service</p>
-        </div>
-      </div>
+    .img-containers {
+      margin: auto;
+      display: flex;
+      max-width: auto;
+      padding: 50px;
 
-      <div class="text_with_img3">
-        <img id="ours3" src="ours3.jpg" alt="our picture 3" />
-        <p id="para3">Airport Transfers</p>
+      gap: 20px;
+    }
+
+    .img1_and_img2 {
+      display: flex;
+      flex-direction: column;
+      gap: 27px;
+    }
+
+    .text_with_img1 {
+      position: relative;
+      display: inline-block;
+    }
+
+    #ours1 {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    #para1 {
+      position: absolute;
+      bottom: 30px;
+      left: 50%;
+      font-size: 22px;
+      transform: translateX(-50%);
+      text-transform: capitalize;
+      color: white;
+      margin-bottom: 0;
+    }
+
+    .text_with_img2 {
+      position: relative;
+      display: inline-block;
+    }
+
+    #ours2 {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    #para2 {
+      position: absolute;
+      bottom: 30px;
+      left: 50%;
+      font-size: 22px;
+      transform: translateX(-50%);
+      text-transform: capitalize;
+      color: white;
+      margin-bottom: 0;
+    }
+
+    .text_with_img3 {
+      position: relative;
+      display: inline-block;
+    }
+
+    #ours3 {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    #para3 {
+      position: absolute;
+      bottom: 30px;
+      left: 50%;
+      font-size: 22px;
+      transform: translateX(-50%);
+      text-transform: capitalize;
+      color: white;
+      margin-bottom: 0;
+    }
+
+    .info_box {
+      position: relative;
+      background: url(info.jpg);
+      background-size: cover;
+      background-attachment: fixed;
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+      height: 500px;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-position: center;
+      margin-top: 30px;
+      font-family: "Dosis", sans-serif;
+      font-size: 16px;
+      color: #fff;
+      font-weight: 700;
+
+    }
+
+
+
+    .info {
+      position: relative;
+      margin-bottom: 10px;
+      z-index: 2;
+      text-align: center;
+      height: 200;
+    }
+
+    .info_box_text_and_btn {
+      text-align: center;
+    }
+
+    .btn_onl_booking {
+      padding: 14px 40px;
+      background-color: #bf9c60;
+      color: #fff;
+      border: 2px solid #bf9c60
+    }
+
+    .info_text_header {
+      font-weight: 700;
+    }
+  </style>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style-khang.css">
+</head>
+
+<body>
+  <header class="pk-navbar">
+    <div class="pk-logo">Phong Khang</div>
+    <nav class="pk-nav-links">
+      <a href="#">Services Rate</a>
+      <a href="#">Blog</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <section class="pk-hero">
+    <img src="home.jpg" class="pk-slide">
+    </div>
+    <div class="pk-overlay">
+      <h1 class="pk-title slide-in">Drive of your life</h1>
+      <p class="pk-subtitle">Offering the Best Limo Service in Hội An. Experience It Now!</p>
+      <div class="pk-contact-button">
+        <a href="https://facebook.com" class="pk-btn pk-fb" target="_blank">Facebook</a>
+        <a href="https://zalo.me/0935911027" class="pk-btn pk-zalo" target="_blank">Zalo</a>
+        <a href="tel:0935911027" class="pk-btn pk-call">Call:0935911027</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Số+8+Bầu+Ốc+Thượng" class="pk-btn pk-map"
+          target="_blank">Location</a>
       </div>
     </div>
-  </body>
+  </section>
+  <div></div>
+  <div class="img-containers">
+    <div class="img1_and_img2">
+      <div class="text_with_img1">
+        <img id="ours1" src="ours1.jpg" alt="our picture 1" />
+        <p id="para1">Limousine Service</p>
+      </div>
+      <div class="text_with_img2">
+        <img id="ours2" src="ours2.jpg" alt="our picture 2" />
+        <p id="para2">Chauffeur Service</p>
+      </div>
+    </div>
+
+    <div class="text_with_img3">
+      <img id="ours3" src="ours3.jpg" alt="our picture 3" />
+      <p id="para3">Airport Transfers</p>
+    </div>
+  </div>
+  <div class="info_box">
+    <div class="info">
+      <h1 id="info_text_header">Or anywhere you need us to take</h1>
+      <p>Not only taking to night parties, weddings, casinos, birthdays <br>but we also take you to anywhere you
+        want
+        to go.</p>
+    </div>
+    <div class="info_box_text_and_btn">
+      <h2>Call Now : <span>0935 911 027</span></h2>
+      <button class="btn_onl_booking">
+        Online Booking
+        <img src="arrow_right.jpg" class="right_arrow" alt=>
+      </button>
+    </div>
+
+
+  </div>
+</body>
+
 </html>
