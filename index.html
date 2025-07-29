@@ -4,9 +4,98 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Phong Khang</title>
+    <style>
+      .img-containers {
+        margin: auto;
+        display: flex;
+        max-width: auto;
+        padding: 50px;
+
+        gap: 20px;
+      }
+      .img1_and_img2 {
+        display: flex;
+        flex-direction: column;
+        gap: 27px;
+      }
+
+      .text_with_img1 {
+        position: relative;
+        display: inline-block;
+      }
+      #ours1 {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      #para1 {
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        font-size: 22px;
+        transform: translateX(-50%);
+        text-transform: capitalize;
+        color: white;
+        margin-bottom: 0;
+      }
+      .text_with_img2 {
+        position: relative;
+        display: inline-block;
+      }
+      #ours2 {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      #para2 {
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        font-size: 22px;
+        transform: translateX(-50%);
+        text-transform: capitalize;
+        color: white;
+        margin-bottom: 0;
+      }
+      .text_with_img3 {
+        position: relative;
+        display: inline-block;
+      }
+      #ours3 {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      #para3 {
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        font-size: 22px;
+        transform: translateX(-50%);
+        text-transform: capitalize;
+        color: white;
+        margin-bottom: 0;
+      }
+    </style>
   </head>
   <body>
     <div></div>
-    <div></div>
+    <div class="img-containers">
+      <div class="img1_and_img2">
+        <div class="text_with_img1">
+          <img id="ours1" src="ours1.jpg" alt="our picture 1" />
+          <p id="para1">Limousine Service</p>
+        </div>
+        <div class="text_with_img2">
+          <img id="ours2" src="ours2.jpg" alt="our picture 2" />
+          <p id="para2">Chauffeur Service</p>
+        </div>
+      </div>
+
+      <div class="text_with_img3">
+        <img id="ours3" src="ours3.jpg" alt="our picture 3" />
+        <p id="para3">Airport Transfers</p>
+      </div>
+    </div>
   </body>
 </html>
