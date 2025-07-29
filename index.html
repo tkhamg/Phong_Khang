@@ -4,9 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Phong Khang</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-khang.css">
   </head>
   <body>
+    <header class="pk-navbar">
+      <div class="pk-logo">Phong Khang</div>
+      <nav class="pk-nav-links">
+        <a href="#">Services Rate</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+    <section class="pk-hero">
+        <img src="home.jpg" class="pk-slide">
+      </div>
+      <div class="pk-overlay">
+        <h1 class="pk-title slide-in">Drive of your life</h1>
+        <p class="pk-subtitle">Offering the Best Limo Service in Hội An. Experience It Now!</p>
+        <div class="pk-contact-button">
+          <a href="https://facebook.com" class="pk-btn pk-fb" target="_blank">Facebook</a>
+          <a href="https://zalo.me/0935911027" class="pk-btn pk-zalo" target="_blank">Zalo</a>
+          <a href="tel:0935911027" class="pk-btn pk-call">Call:0935911027</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Số+8+Bầu+Ốc+Thượng" class="pk-btn pk-map" target="_blank">Location</a>
+        </div>
+      </div>
+    </section>
     <div></div>
-    <div></div>
+    <script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll(".pk-slide");
+
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.classList.remove("pk-active");
+        if (i === index) slide.classList.add("pk-active");
+      });
+    }
+
+    setInterval(() => {
+      currentSlide = (currentSlide + 1) % slides.length;
+      showSlide(currentSlide);
+    }, 5000);
+  </script>
+
   </body>
 </html>
