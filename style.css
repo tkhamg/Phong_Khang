@@ -104,6 +104,12 @@
       font-size: 16px;
       color: #fff;
       font-weight: 700;
+      gap:35px
+
+    }
+    .title1{
+        margin-top: 30px;
+        text-align: center;
 
     }
 
@@ -119,13 +125,16 @@
 
     .info_box_text_and_btn {
       text-align: center;
+      
     }
 
     .btn_onl_booking {
       padding: 14px 40px;
       background-color: #bf9c60;
       color: #fff;
-      border: 2px solid #bf9c60
+      border: 2px solid #bf9c60;
+      padding-top: 20px;
+      
     }
 
     .info_text_header {
@@ -139,10 +148,6 @@
     gap: 40px;
     padding: 20px;
     padding-bottom: 40px;
-    }
-
-    .chooses_container {
-
     }
 
     .wchooses a {
@@ -218,3 +223,14 @@
     .article_title{
         text-align: center;
     }
+    *{
+        margin: 0;
+        box-sizing: border-box;
+    }
+    @media screen and (min-width:1024px){
+        .body{
+            gap:auto;
+
+        }
+    }
+  
