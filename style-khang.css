@@ -18,7 +18,7 @@ body {
 }
 
 .pk-overlay {
-    background-color: rgba(0, 0, 0, 0.5);
+    
     padding: 40px 20px;
     z-index: 1;
     color:white;
@@ -51,6 +51,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 96.9%;
 }
 .pk-logo{
     color:#fff;
@@ -75,4 +79,13 @@ body {
     gap: 30px;
     color: #fff;
     text-decoration: none;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: grey;
+}
+::-webkit-scrollbar-track{
+    background-color: white;
 }
