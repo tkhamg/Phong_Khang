@@ -10,6 +10,37 @@
   <title>Phong Khang</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="style-khang.css">
+  <style>
+    @media (max-width:600px) {
+      .navbar {
+        width: 100%;
+        margin: 0;
+
+        flex-direction: column;
+        padding: 20px 0;
+        gap: 20px;
+        align-content: center;
+      }
+    }
+
+    @media (max-width:600px) {
+      .pk-nav-links {
+        padding-right: 0px;
+      }
+    }
+
+    @media only screen and (min-width:600px) {
+      .box_content {
+        justify-content: center;
+      }
+    }
+
+    @media only screen and (min-width:992px) {
+      .box_content {
+        flex-wrap: wrap;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -38,7 +69,7 @@
   </header>
 
   <div class="title1">
-    <h2>our services</h2>
+    <h2>Our Services</h2>
     <p>Our aim is to fill a gap in niche market of Trade</p>
   </div>
   <div id="services" class="img-containers">
@@ -213,15 +244,6 @@
 
     </div>
   </div>
-
-
-
-
-
-
-
-
-
 </body>
 <footer class="footer">
   <h2 class="footer-logo">Phong Khang</h2>
