@@ -140,22 +140,13 @@
     padding: 20px;
     padding-bottom: 40px;
     }
-
-    .chooses_container {
-
-    }
-
     .wchooses a {
       color: black;
-      text-decoration: none;
-    
-      
+      text-decoration: none;     
     }
-
     .title {
       text-align: center;
     }
-
     .box_content {
       padding-top:0;
       padding-bottom: 0;
@@ -169,8 +160,6 @@
       display: flex;
       width: auto;
       position: relative;
-      
-
     }
     .box_content_bottom{
         text-align: center;
@@ -178,11 +167,8 @@
     #img3{
         width: 92px;
         padding-bottom: 18px;
-        padding-top: 17px;
-        
-    }
-    
-        
+        padding-top: 17px;      
+    }        
     .articles{
         padding-top: 60px;
         padding-bottom: 40px;
