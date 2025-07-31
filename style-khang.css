@@ -11,6 +11,7 @@ body {
     background-attachment: fixed;
     height: 100vh;
     display: flex;
+    flex-wrap: wrap;    
     align-items: center;
     justify-content: center;
     position: relative;
@@ -47,8 +48,11 @@ body {
 }
 
 .navbar {
-    padding: 20px;
+    padding:20px ;
+    
     display: flex;
+    flex-wrap: wrap;
+    
     justify-content: space-between;
     align-items: center;
     position: fixed;
@@ -64,11 +68,11 @@ body {
 .navbar a{
     font: 1.8 rem;
     color: #fff;
-    margin-left: 4rem;
-    font-weight: 600;
+    
     text-decoration: none;
     transition: 0.3s ease-in-out;
     border-bottom: 3px solid transparent;
+   
 }
 .navbar a:hover{
     color: #fff;
@@ -80,6 +84,7 @@ body {
     gap: 30px;
     color: #fff;
     text-decoration: none;
+    padding-right: 50px;
 }
 ::-webkit-scrollbar{
     width: 10px;
@@ -110,7 +115,7 @@ body {
     max-width: 100%;
     width: 100%;
     box-sizing: border-box; 
-    overflow-x: hidden;    
+    overflow-x: hidden;
    
 }
 .footer-logo {
@@ -159,7 +164,7 @@ body {
     margin-top: 2rem;
     font-size: 0.9rem;
     color: #969696;
-    overflow-x: hidden;
+    overflow-x: hidden; 
     width: 100%;
     margin-bottom: 0; 
 }

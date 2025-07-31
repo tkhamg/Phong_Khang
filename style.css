@@ -5,6 +5,7 @@
     .img-containers {
       margin: auto;
       display: flex;
+      flex-wrap: wrap;
       max-width: auto;
       justify-content: center;
       padding-top: 50px;
@@ -95,6 +96,7 @@
       height: 500px;
       background-repeat: no-repeat;
       display: flex;
+      flex-wrap: wrap;
       flex-direction: column;
       justify-content: center;
       align-items: center;
@@ -110,6 +112,7 @@
     .title1{
         margin-top: 30px;
         text-align: center;
+        
 
     }
 
@@ -143,11 +146,13 @@
 
     .wchooses {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     gap: 40px;
     padding: 20px;
     padding-bottom: 40px;
+
     }
     .wchooses a {
       color: black;
@@ -167,6 +172,8 @@
       text-align: center;
       gap :90px;
       display: flex;
+      flex-wrap: wrap;
+      
       width: auto;
       position: relative;
     }
@@ -182,6 +189,7 @@
         padding-top: 60px;
         padding-bottom: 40px;
         display: flex;
+        flex-wrap: wrap;
         padding: 0;
         gap:30px;
         position: relative;
@@ -213,14 +221,4 @@
     .article_title{
         text-align: center;
     }
-    *{
-        margin: 0;
-        box-sizing: border-box;
-    }
-    @media screen and (min-width:1024px){
-        .body{
-            gap:auto;
-
-        }
-    }
-  
+   
