@@ -54,7 +54,7 @@ body {
     position: fixed;
     z-index: 1000;
     background-color: rgba(0, 0, 0, 0.5);
-    width: 96.9%;
+    width: 100%;
 }
 .pk-logo{
     color:#fff;
@@ -76,6 +76,7 @@ body {
 }
 .pk-nav-links{
     display: flex;
+    padding-right: 50px;
     gap: 30px;
     color: #fff;
     text-decoration: none;
@@ -162,3 +163,4 @@ body {
     width: 100%;
     margin-bottom: 0; 
 }
+
