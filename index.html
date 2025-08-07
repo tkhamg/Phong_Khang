@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Phong Khang</title>
+  <title data-i18n="page title">Phong Khang</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="style-khang.css">
   <style>
@@ -47,41 +47,40 @@
   <header class="pk-navbar">
     <div class="navbar">
       <a href="#home" class="pk-logo">Phong<span> Khang</span></a>
-      <div id="google_translate_element"></div>
       <nav class="pk-nav-links">
-        <a href="#services">Services Rate</a>
-        <a href="#wchoose">Blog</a>
-        <a href="#contact">Contact</a>
+        <a href="#services" data-i18n="nav_services_rate">Services Rate</a>
+        <a href="#wchoose" data-i18n="nav_wchoose">Blog</a>
+        <a href="#contact" data-i18n="nav_contact">Contact</a>
       </nav>
     </div>
     <section id="home" class="pk-hero">
       <div class="pk-overlay">
-        <h1 class="pk-title slide-in">Drive of your life</h1>
-        <p class="pk-subtitle">Offering the Best Limo Service in Hội An. Experience It Now!</p>
+        <h1 class="pk-title slide-in" data-i18n="title_slide">Drive of your life</h1>
+        <p class="pk-subtitle" data-i18n="sub_title">Offering the Best Limo Service in Hội An. Experience It Now!</p>
         <div class="pk-contact-button">
           <a href="https://facebook.com" class="pk-btn pk-fb" target="_blank">Facebook</a>
           <a href="https://zalo.me/0935911027" class="pk-btn pk-zalo" target="_blank">Zalo</a>
           <a href="tel:0935911027" class="pk-btn pk-call">Call:0935911027</a>
           <a href="https://www.google.com/maps/search/?api=1&query=Số+8+Bầu+Ốc+Thượng" class="pk-btn pk-map"
-            target="_blank">Location</a>
+            target="_blank" data-i18n="locate">Location</a>
         </div>
       </div>
     </section>
   </header>
 
   <div class="title1">
-    <h2>Our Services</h2>
-    <p>Our aim is to fill a gap in niche market of Trade</p>
+    <h2 data-i18n="ourServices">Our Services</h2>
+    <p data-i18n="introduce">Our aim is to fill a gap in niche market of Trade</p>
   </div>
   <div id="services" class="img-containers">
     <div class="img1_and_img2">
       <div class="text_with_img1">
         <img id="ours1" src="ours1.jpg" alt="our picture 1" />
-        <p id="para1">Limousine Service</p>
+        <p data-i18n="limousineService">Limousine Service</p>
       </div>
       <div class="text_with_img2">
         <img id="ours2" src="ours2.jpg" alt="our picture 2" />
-        <p id="para2">Chauffeur Service</p>
+        <p data-i18n="chauffeurService">Chauffeur Service</p>
       </div>
     </div>
 
@@ -90,19 +89,20 @@
 
     <div class="text_with_img3">
       <img id="ours3" src="ours3.jpg" alt="our picture 3" />
-      <p id="para3">Airport Transfers</p>
+      <p data-i18n="airportTransfers">Airport Transfers</p>
     </div>
   </div>
   <div id="contact" class="info_box">
     <div class="info">
-      <h1 id="info_text_header">Or anywhere you need us to take</h1>
-      <p>Not only taking to night parties, weddings, casinos, birthdays <br>but we also take you to anywhere you
+      <h1 id="info_text_header" data-i18n="ensure">Or anywhere you need us to take</h1>
+      <p data-i18n="ensure_2">Not only taking to night parties, weddings, casinos, birthdays <br>but we also take you to
+        anywhere you
         want
         to go.</p>
     </div>
     <div class="info_box_text_and_btn">
-      <h2>Call Now : <span>0935 911 027</span></h2>
-      <button class="btn_onl_booking">
+      <h2 data-i18n="phone_number">Call Now : <span data-i18n="number">0935 911 027</span></h2>
+      <button class="btn_onl_booking" data-i18n="online_booking">
         Online Booking
         <img src="arrow_right.jpg" class="right_arrow" alt=>
       </button>
@@ -114,8 +114,8 @@
   <div id="wchoose" class="wchooses">
     <div class="chooses_container">
       <div class="title">
-        <h2> Why Choose Us</h2>
-        <p>Explore our first class limousine & car rental services</p>
+        <h2 data-i18n="'reason"> Why Choose Us</h2>
+        <p data-i18n="reason_1">Explore our first class limousine & car rental services</p>
       </div>
     </div>
 
@@ -127,9 +127,10 @@
           </div>
           <div class="box_content_bottom">
             <a href="#" class="sub_title">
-              <h3>Easy Online Booking</h3>
+              <h3 data-i18n="reason_2">Easy Online Booking</h3>
             </a>
-            <span class="sub_desc">A new shuttle train service between Singapore and Johor Bahru kicked off on
+            <span class="sub_desc" data-i18n="reason_3">A new shuttle train service between Singapore and Johor Bahru
+              kicked off on
               Wednesday.</span>
           </div>
         </div>
@@ -139,9 +140,10 @@
           </div>
           <div class="box_content_bottom">
             <a href="#" class="sub_title">
-              <h3>Professional Drivers</h3>
+              <h3 data-i18n="reason_4">Professional Drivers</h3>
             </a>
-            <span class="sub_desc">Lorem ipsum dolor sit amet, consectadipiscing elit. Aenean commodo ligula eget
+            <span class="sub_desc" data-i18n="reason_5">Lorem ipsum dolor sit amet, consectadipiscing elit. Aenean
+              commodo ligula eget
               dolor.</span>
           </div>
         </div>
@@ -151,9 +153,10 @@
           </div>
           <div class="box_content_bottom">
             <a href="#" class="sub_title">
-              <h3>Variety of Car Brands</h3>
+              <h3 data-i18n="reason_6">Variety of Car Brands</h3>
             </a>
-            <span class="sub_desc">The service, called Shuttle Tebrau, is operated by Malaysia’s JB Sentral in just
+            <span class="sub_desc" data-i18n="reason_7">The service, called Shuttle Tebrau, is operated by Malaysia’s JB
+              Sentral in just
               five minutes.</span>
           </div>
         </div>
@@ -163,9 +166,10 @@
           </div>
           <div class="box_content_bottom">
             <a href="#" class="sub_title">
-              <h3>Online Payment</h3>
+              <h3 data-i18n="reason_8">Online Payment</h3>
             </a>
-            <span class="sub_desc">York Airport Service is a private bus company that provides transportation area
+            <span class="sub_desc" data-i18n="reason_9">York Airport Service is a private bus company that provides
+              transportation area
               airports and Manhattan.</span>
           </div>
         </div>
@@ -175,8 +179,8 @@
     </div>
   </div>
   <div class="title">
-    <h2>Articles & Tips</h2>
-    <p>Explore some of the best tips from around the world</p>
+    <h2 data-i18n="trick">Articles & Tips</h2>
+    <p data-i18n="trick_1">Explore some of the best tips from around the world</p>
   </div>
   <div class="article_container">
     <div class="articles">
@@ -185,7 +189,8 @@
           <img src="Articles1.jpg" alt="articles1">
         </div>
         <div class="article_desc">
-          <h4 class="article_title">What To Do if Your Rental Car Has <br> Met With An Accident</h4>
+          <h4 class="article_title" data-i18n="trick_2">What To Do if Your Rental Car Has <br data-i18n="bonus"> Met
+            With An Accident</h4>
           <div class="article_desc_bottom">
             <div class="driver">
               <img class="icon_driver" src="driver.jpg" alt="driver">
@@ -193,7 +198,7 @@
             </div>
             <div class="date">
               <img class="icon_date" src="date.jpg" alt="date">
-              <p>January 18,
+              <p data-i18n="trick_3">January 18,
                 2017</p>
             </div>
           </div>
@@ -205,7 +210,8 @@
           <img src="Articles2.jpg" alt="articles2">
         </div>
         <div class="article_desc">
-          <h4 class="article_title">What To Do if Your Rental Car Has<br> Met With An Accident</h4>
+          <h4 class="article_title" data-i18n="trick_4">What To Do if Your Rental Car Has<br data-i18n="bonus_1"> Met
+            With An Accident</h4>
           <div class="article_desc_bottom">
             <div class="driver">
               <img class="icon_driver" src="driver.jpg" alt="driver">
@@ -213,7 +219,7 @@
             </div>
             <div class="date">
               <img class="icon_date" src="date.jpg" alt="date">
-              <p>January 18,
+              <p data-i18n="trick_5">January 18,
                 2017</p>
             </div>
           </div>
@@ -225,7 +231,8 @@
           <img src="Articles3.jpg" alt="articles3">
         </div>
         <div class="article_desc">
-          <h4 class="article_title">What To Do if Your Rental Car Has <br> Met With An Accident</h4>
+          <h4 class="article_title" data-i18n="trick_6">What To Do if Your Rental Car Has <br data-i18n="bonus_2"> Met
+            With An Accident</h4>
           <div class="article_desc_bottom">
             <div class="driver">
               <img class="icon_driver" src="driver.jpg" alt="driver">
@@ -235,7 +242,7 @@
             </div>
             <div class="date">
               <img class="icon_date" src="date.jpg" alt="date">
-              <p>January 18,
+              <p data-i18n="trick_7">January 18,
                 2017</p>
             </div>
           </div>
@@ -246,24 +253,6 @@
     </div>
   </div>
   <script src="script.js"></script>
-  <script type="text/javascript">
-    function googleTranslateElementInit() {
-      new google.translate.TranslateElement(
-        { pageLanguage: 'en' },
-        'google_translate_element'
-      );
-    } 
-  </script>
-  <script type="text/javascript"
-    src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-
-
-
-
-
-
-
 </body>
 <footer class="footer">
   <h2 class="footer-logo">Phong Khang</h2>
@@ -290,5 +279,7 @@
   </div>
 
 </footer>
+
+<script src="index.js" type="module"></script>
 
 </html>
